@@ -55,6 +55,9 @@ while True:
         input(joke)
         input(answer)
     if selectedgame.lower() == "fun fact":
-        print("trivia")
+        factbank = ["Land snails have two sets of tentacles that stick out, the longer set of tentacles are the ones that have the snail's eyes. This way they can move their tentacles around to get the best view. Water snails, on the other hand, have eyes at the tentacles' base and they have only one pair of tentacles."]
+        input(random.choice(factbank))
+        input("did you think that fact was fun?")
+        input("glad to hear your feedback!")
     else: 
-        print("none")
+        print("")
